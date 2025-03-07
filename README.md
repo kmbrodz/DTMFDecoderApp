@@ -9,13 +9,14 @@ A demonstration of how the app works is available in the project repository: **`
 
 - The code records an **audio signal** from the computer’s built-in microphone.  
 - It analyzes its **frequency components** using **FFT** and filtering.  
-- Then, it decodes the signal into **DTMF (Dual-Tone Multi-Frequency) tones**.  
+- Then, it decodes the signal into **DTMF (Dual-Tone Multi-Frequency) tones**.
+<br />
 
-🔹 **Classical approach** to tone recognition.  
-🔹 The app can **decode 16 digits**:  
+- **Classical approach** to tone recognition.  
+- The app can **decode 16 digits**:  
    `1, 2, 3, 4, 5, 6, 7, 8, 9, *, 0, #, A, B, C, D`  
-🔹 Each digit on a telephone keypad is encoded using a combination of **two specific frequencies**.  
-## Usage
+- Each digit on a telephone keypad is encoded using a combination of **two specific frequencies**.  
+## 🛠 Usage
 
 Run the **DTMFDecoderApp.m** script to launch the application.<br />
 Click the 'Start' button to begin recording.<br />
